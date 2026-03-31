@@ -1,0 +1,2 @@
+requests>=2.28
+youtube-transcript-api>=1.0.0

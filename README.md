@@ -10,7 +10,8 @@ English | [中文](README.zh-CN.md)
 
 ```
 soul.skill/
-├── SKILL.md                    # ← The skill file (drop into Claude Code / OpenClaw)
+├── create-soul/
+│   └── SKILL.md                # ← The skill: /create-soul walks you through everything
 ├── templates/                  # Empty templates — fork and fill in your own person
 │   ├── _persona/
 │   │   ├── rules.md            # Identity, thinking frameworks, decision style

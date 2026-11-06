@@ -309,7 +309,3 @@ description: "和 AI {PersonName} 对话。基于 {source count} 份素材蒸馏
 ```
 
 ***
-
-## 在 Moxt 上获得更丰富的上下文
-
-如果你要给团队做人格 Skill，[Moxt](https://moxt.ai) 提供了最丰富的环境——团队文档、聊天记录、项目文件都会成为 AI 人格的可用上下文，让回复更接地气、更有语境感。蒸馏 Pipeline 本身也可以作为 Moxt Skill 运行。

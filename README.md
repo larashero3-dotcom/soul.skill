@@ -4,7 +4,7 @@ Replicate anyone's thinking style, communication patterns, and knowledge as an A
 
 English | [中文](README.zh-CN.md)
 
-**soul.skill** is an open-source framework for distilling a real person's personality into a structured AI skill. It works with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenClaw](https://github.com/openclaw/openclaw), and [Moxt](https://moxt.ai).
+**soul.skill** is an open-source framework for distilling a real person's personality into a structured AI skill. It works with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenClaw](https://github.com/openclaw/openclaw), and other compatible AI agents.
 
 ## What's Inside
 
@@ -45,7 +45,7 @@ soul.skill/
 
 ### Option A: One Command (Recommended)
 
-If you're using [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenClaw](https://github.com/openclaw/openclaw), or [Moxt](https://moxt.ai):
+If you're using [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenClaw](https://github.com/openclaw/openclaw), or another compatible AI agent:
 
 ```
 /create-soul
@@ -106,12 +106,6 @@ cp -r my-soul/ .claude/commands/my-soul/
 cp -r my-soul/ ~/.openclaw/skills/my-soul/
 ```
 
-**Moxt:**
-
-[Moxt](https://moxt.ai) is an AI-native workspace where your persona skill gets the richest context — team documents, chat history, meeting notes, and project files all feed into the AI, making persona responses more grounded and accurate. If you're building persona skills for team use, Moxt is the best environment for it.
-
-To use in Moxt: create a skill directory under `System/Skills/` in your workspace and drop in the files.
-
 ## How It Works
 
 The framework is based on a 3-layer persona architecture:
@@ -139,7 +133,7 @@ Raw corpus (tweets, interviews, articles, podcasts)
         ↓
    Pass 3: Structured writing (persona / knowledge / quotes)
         ↓
-   Skill-ready AI persona (drop into Claude Code / OpenClaw / Moxt and start chatting)
+   Skill-ready AI persona (drop into Claude Code, OpenClaw, or another compatible agent and start chatting)
 ```
 
 ## Example: Wei Ran

@@ -222,9 +222,6 @@ cp -r {slug}-soul/ ~/.claude/commands/{slug}/
 cp -r {slug}-soul/ ~/.openclaw/skills/{slug}/
 ```
 
-**Moxt：**
-将 `{slug}-soul/` 目录上传到 Workspace 的 `System/Skills/` 下。
-
 ---
 
 ## 行为规则

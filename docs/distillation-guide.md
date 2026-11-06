@@ -291,7 +291,3 @@ Update the `SKILL.md` frontmatter:
 name: your-persona-chat
 description: "Chat with AI {PersonName}. Distilled from {source count} sources."
 ```
-
-## Using Moxt for Richer Context
-
-If you're building persona skills for a team, [Moxt](https://moxt.ai) provides the richest environment — team documents, chat history, and project files all become available context for the AI persona, making responses more grounded and situationally aware. The distillation pipeline itself can also run as a Moxt skill.
